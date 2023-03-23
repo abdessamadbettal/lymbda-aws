@@ -1,0 +1,22 @@
+{
+  "name": "lambda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node testCode.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1339.0",
+    "express-async-handler": "^1.2.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "pdf-img-convert": "^1.2.0",
+    "pdf-lib": "^1.17.1",
+    "pdf-page-counter": "^1.0.3",
+    "pdf-poppler": "^0.2.1"
+  }
+}
